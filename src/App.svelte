@@ -187,7 +187,7 @@
     </h1>
     {#if !isNew}
       <button in:fade out:fade class="fixed" on:click={() => (isNew = true)}
-        >Replay</button
+        >⟳</button
       >
     {/if}
   </section>

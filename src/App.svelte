@@ -169,7 +169,7 @@
 
 <main>
   <section>
-    Type to Change the Problem and update the area model below:
+    Type to change the multiplication problem and update the area model below:
     <h1>
       <span class="e b" contenteditable="true" bind:textContent={btext} />
       &times;

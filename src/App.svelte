@@ -277,7 +277,9 @@
 <style>
   main {
     --red: #ffe45c;
+    --red-t: #ffe45caa;
     --blue: #2ecbe9;
+    --blue-t: #2ecbe9aa;
     --purple: #91d356;
     --purple-t: #5b744477;
     --white: white;
@@ -429,6 +431,7 @@
       opacity: 0;
       width: calc(var(--unit));
       height: 0;
+      background-color: var(--red-t);
     }
     20% {
       opacity: 0;
@@ -444,11 +447,13 @@
       opacity: 1;
       width: calc(var(--unit));
       height: calc(var(--unit) * var(--b));
+      background-color: var(--red-t);
     }
     100% {
       opacity: 1;
       width: calc(var(--unit) * var(--a));
       height: calc(var(--unit) * var(--b));
+      background-color: var(--purple-t);
     }
   }
   .fixed {
